@@ -38,16 +38,18 @@ h1{
 
 .nav-links{
     display: flex;
-    gap: 10%;
+    gap: 15%;
+    font-size: 1em;
+    
 
 }
 #search{
     width: 15%;
     display: flex;
     align-items: center;
-    padding: 5px;
+    padding: 6px 10px;
     outline: none;
-    border: 1px solid rgba(128, 128, 128, 0.509);
+    border: 1px solid rgba(128, 128, 128, 0.261);
     border-radius: 8px;
 }
 .nav-buttons{
@@ -130,6 +132,7 @@ h1{
     gap: 3%;
 }
 .food-item{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.205);
     background-color: white;
     width: 33%;
     justify-content: space-between;
@@ -182,4 +185,10 @@ footer{
     padding: 12px;
     background-color: rgb(11,11,69);
     color: white;
+}
+
+
+.food-item:hover{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.397);
+    transition: all 0.3s ease-in-out;
 }
